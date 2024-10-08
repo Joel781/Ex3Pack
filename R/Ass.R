@@ -4,5 +4,7 @@ usethis::use_git_config(user.name = "Joel Walter",
 usethis::create_github_token()
 install.packages("gitcreds")
 gitcreds::gitcreds_set()
+gh::gh_whoami()
 
+usethis::use_git()
 
